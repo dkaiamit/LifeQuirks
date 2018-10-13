@@ -40,4 +40,51 @@ Source - [Stack Overflow Question](https://stackoverflow.com/questions/801117/wh
 
 Functions are great way avoid copy pasting code. It allows programmers to break logic into small pieces and execute them in efficient manner
 
-### Method Signature
+<!-----### Method Signature----->
+
+## Operators
+
+Operators allow us to perform different kinds of operations on [operands](https://en.wikipedia.org/wiki/Operand). An operator is a symbol that tells the compiler to perform a certain mathematical or logical manipulation.
+
+C operators can be classified into following types:
+
+- Arithmetic operators (+,-,/,*,%)
+- Relational operators (==,!=,>,<,>=,<=)
+- Logical operators (&&,||, !)
+- Bitwise operator (&, |, ^, ~, >>,<<)
+
+### Arithmetic Operators: 
+These are used to perform arithmetic/mathematical operations on operands. The binary operators falling in this category are:
+
+Addition: The ‘+’ operator adds two operands. 
+>For example, x+y.
+
+Subtraction: The ‘-‘ operator subtracts two operands. 
+>For example, x-y.
+
+Multiplication: The ‘*’ operator multiplies two operands. 
+>For example, x*y.
+
+Division: The ‘/’ operator divides the first operand by the second. 
+>For example, x/y.
+
+[Modulus](https://en.wikipedia.org/wiki/Modulus): The ‘%’ operator returns the remainder when first operand is divided by the second. 
+>For example, x%y.
+
+The ones falling into the category of [unary](https://en.wikipedia.org/wiki/Unary_operation) arithmetic operators are:
+
+- Increment: 
+
+  The ‘++’ operator is used to increment the value of an integer. When placed before the variable name (also called pre-increment operator), its value is incremented instantly. 
+  >For example, ++x.
+  
+  And when it is placed after the variable name (also called post-increment operator), its value is preserved temporarily until the execution of this statement and it gets updated before the execution of the next statement. 
+  >For example, x++.
+
+- Decrement: 
+
+  The ‘–-‘ operator is used to decrement the value of an integer. When placed before the variable name (also called pre-decrement operator), its value is decremented instantly. 
+  >For example, –-x.
+  
+  And when it is placed after the variable name (also called post-decrement operator), its value is preserved temporarily until the execution of this statement and it gets updated before the execution of the next statement. 
+  >For example, x–-.
